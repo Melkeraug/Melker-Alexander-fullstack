@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- BS4 javascript -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <title>projekt</title>
+    <link rel="stylesheet" href="../Styles/bootstrap.css">
+    <link rel="stylesheet" href="../Styles/style.scss">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Densissima</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="collapse navbar-collapse" id="navbarsExample07">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="./Menu.html">Menu <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="./Kundkorg.html">Shopping cart <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="./köphistorik.html">Buy history <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="./Register.html"> Login/Register <span class="sr-only">(current)</span></a>
+          </li>
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href="#" id="dropdown07" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+<div class="dropdown-menu" aria-labelledby="dropdown07">
+  <a class="dropdown-item" href="./index.html">Hem</a>
+  <a class="dropdown-item" href="./Register.html">Log in/Register</a>
+  <a class="dropdown-item" href="./Hittahit.html">Find us!</a>
+</div>
+</li>
+</ul>
+  </div>
+  </div>
+  </nav>
+     <!-- Menu -->
+<div id="menu" class="w3-container w3-black w3-xxlarge w3-padding-64">
+  <h1 class="w3-center w3-jumbo w3-padding-32">THE MENU</h1>
+  <div class="w3-row w3-center w3-border w3-border-dark-grey">
+  <a href="#pizza"><div class="w3-third w3-padding-large w3-red">Pizza</div></a>
+  <a href="#pasta"><div class="w3-third w3-padding-large w3-hover-red">Pasta</div></a>
+  <a href="#starters"><div class="w3-third w3-padding-large w3-hover-red">Starters</div></a>
+  </div>
+  
+  <div id="pizza" class="w3-container w3-white w3-padding-32">
+  <h1><b>Margherita</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$12.50</span></h1>
+  <p class="w3-text-grey">Fresh tomatoes, fresh mozzarella, fresh basil</p>
+  <hr>
+  
+  <h1><b>Formaggio</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$15.50</span></h1>
+  <p class="w3-text-grey">Four cheeses (mozzarella, parmesan, pecorino, jarlsberg)</p>
+  <hr>
+  
+  <h1><b>Meat Town</b> <span class="w3-tag w3-red w3-round">Hot!</span>
+  <span class="w3-right w3-tag w3-dark-grey w3-round">$20.00</span></h1>
+  <p class="w3-text-grey">Fresh tomatoes, mozzarella, hot pepporoni, hot sausage, beef, chicken</p>
+  </div>
+  
+  <h1 id="pasta" class="w3-center w3-jumbo w3-padding-32">PASTA</h1>
+  <div class="w3-container w3-white w3-padding-32">
+  
+  <h1><b>Lasagna</b> <span class="w3-tag w3-grey w3-round">Popular</span>
+  <span class="w3-right w3-tag w3-dark-grey w3-round">$13.50</span></h1>
+  <p class="w3-text-grey">Special sauce, mozzarella, parmesan, ground beef</p>
+  <hr>
+  
+  <h1><b>Ravioli</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$14.50</span></h1>
+  <p class="w3-text-grey">Ravioli filled with cheese</p>
+  <hr>
+  
+  <h1><b>Spaghetti Classica</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$11.00</span></h1>
+  <p class="w3-text-grey">Fresh tomatoes, onions, ground beef</p>
+  </div>
+  
+  <h1 id="starters" class="w3-center w3-jumbo w3-padding-32">STARTERS</h1>
+  <div class="w3-container w3-white w3-padding-32">
+  
+  <h1><b>Today's Soup</b> <span class="w3-tag w3-grey w3-round">Seasonal</span>
+  <span class="w3-right w3-tag w3-dark-grey w3-round">$5.50</span></h1>
+  <p class="w3-text-grey">Ask the waiter</p>
+  <hr>
+  
+  <h1><b>Bruschetta</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$8.50</span></h1>
+  <p class="w3-text-grey">Bread with pesto, tomatoes, onion, garlic</p>
+  <hr>
+  
+  <h1><b>Garlic bread</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$9.50</span></h1>
+  <p class="w3-text-grey">Grilled ciabatta, garlic butter, onions</p>
+  </div>
+  </div>
+</body>
+</html>
